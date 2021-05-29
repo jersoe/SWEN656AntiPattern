@@ -36,6 +36,6 @@ public class Model {
 			int index = (int)(Math.random() * tickets.size());
 			this.winningTicket=tickets.get(index).clone();
 		}
-		return this.winningTicket;
+		return this.winningTicket.clone();
 	}
 }
